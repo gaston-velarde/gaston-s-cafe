@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.heading-paragraph .button-clear {
+    background-color: transparent;
+    color: #fff;
+    border-radius: 25px;
+    margin-right: 5px;
+}
+
+.button-clear:hover{
+    background-color: #cc8e35;
+}
+
+.heading-paragraph .button-fill {
+    color: #fff;
+    border-radius: 25px;
+    margin-left: 5px;
+}
+
+.button-fill:hover{
+    background-color: transparent;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.image-header {
+    overflow: hidden;
+    color: #FFFFFF;
+    z-index: 1;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./images/aroma-art-beverage-1251175.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+ }
+
+ .navbar-bg {
+    background-color: #FFFFFF;
+ }
+
+ .heading-paragraph {
+    top: 40%;
+    position: absolute;
+    left: 40%;
+    width: 1140px;
+    -webkit-transform: translate(-40%, -40%);
+    -ms-transform: translate(-40%, -40%);
+    transform: translate(-40%, -40%);
+ }
+
+ .button-primary {
+     background-color: #cc8e35;
+     border-color: #cc8e35;
+ }
+
+ .carousel-div{
+     height:400px;
+     width: 600px;
+     margin-left: auto;
+     margin-right: auto;
+     overflow: hidden;
+ }
+
+ .top-spacing {
+     margin-top: 20px;
+ }
+
+ .line-heading {
+    background-color:#cc8e35;
+    height: 1px;
+    width: 50%;
+ }
+
+.icon-size {
+    color:#cc8e35;
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+.center {
+    text-align: center
+}
+
+.border-icons {
+    border: 1px solid #cc8e35;
+    margin: 10px;
+    border-radius: 20px;
+}
+.border-icons .btn {
+    color:white !important;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    min-width: 200px;
+    font-size: 20px;
+}
+
+.contact-form {
+    border-color: transparent;
+}
+
+.table tr td {
+    border-top: 1px solid transparent;
+}
+
+.margin-50-top {
+    margin-top: 50px;
+}
+
+.label-size {
+    font-size: 30px;
+}
+
+.send-button {
+    color:#fff;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #333;
+    color:#fff;
+    font-size: 20px;
+}
